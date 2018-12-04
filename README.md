@@ -91,12 +91,12 @@ Insights:
 
 3.	Compare the result of the new ranking with that obtained by the money magazine based on the scores obtained by each in the SABER 11 tests (Compare - Distribution).
 
-Mark: Line
-Channel: hue  - ranking / revista Dinero
-Idiom: Group Bar Chart
-Encode: Separate Order and Align
-Manipulate: Select – Shows detail of the name and ranking of the School
-Reduce: Filter
+Mark: Line  
+Channel: hue  - ranking / revista Dinero   
+Idiom: Group Bar Chart  
+Encode: Separate Order and Align  
+Manipulate: Select – Shows detail of the name and ranking of the School  
+Reduce: Filter  
 
 Insights:
 
@@ -108,7 +108,7 @@ http://johnguerra.co/classes/visual_analytics_fall_2018/
 
 •	Project's demo
 
-Spanish version: https://prismapar.github.io/best_school_es/index.html
+Spanish version: https://prismapar.github.io/best_school_es/index.html      
 English version: https://prismapar.github.io/best_school_en/index.html
 
 •	How to run it
