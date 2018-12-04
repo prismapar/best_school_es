@@ -1,4 +1,4 @@
-#The Best School in Colombia
+The Best School in Colombia
 
 •	Project description.
 
