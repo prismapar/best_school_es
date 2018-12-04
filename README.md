@@ -113,5 +113,6 @@ English version: https://prismapar.github.io/best_school_en/index.html
 
 •	How to run it
 
-https://prismapar.github.io/best_school_es/index.html
+Spanish version: https://prismapar.github.io/best_school_es/index.html      
+English version: https://prismapar.github.io/best_school_en/index.html
 
