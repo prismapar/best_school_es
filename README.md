@@ -1,4 +1,4 @@
-#Mejor colegio de Colombia
+#The Best School in Colombia
 
 •	Project description.
 
