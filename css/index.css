@@ -1,0 +1,184 @@
+.g-table {
+    margin: 6px 10px 20px 10px;
+    font: 11px/15px sans-serif;
+    -webkit-text-size-adjust: none;
+}
+
+.g-table-head {
+    font: 13px/17px sans-serif;
+}
+
+.g-table-head .g-table-cell {
+    height: 30px;
+    cursor: pointer;
+}
+
+.g-table-row:after {
+    display: block;
+    content: "";
+    clear: left;
+}
+
+.g-table-body {
+    margin-top: 6px;
+    position: relative;
+}
+
+.g-table-head,
+.g-table-body {
+    padding-bottom: 6px;
+    border-bottom: solid 1px #ccc;
+}
+
+.g-table-body .g-table-row {
+    position: absolute;
+    width: 100%;
+}
+
+.g-table-cell {
+    float: left;
+    position: relative;
+    overflow: hidden;
+}
+
+.g-table-bar,
+.g-table-label {
+    -webkit-transition: width .5s ease;
+    -moz-transition: width .5s ease;
+    -ms-transition: width .5s ease;
+    -o-transition: width .5s ease;
+    transition: width .5s ease;
+}
+
+.g-table-body .g-table-cell {
+    height: 19px;
+    line-height: 19px;
+}
+
+.g-table-body .g-table-row {
+    -webkit-transition: top .5s ease;
+    -moz-transition: top .5s ease;
+    -ms-transition: top .5s ease;
+    -o-transition: top .5s ease;
+    transition: top .5s ease;
+}
+
+.g-table-bar {
+    position: absolute;
+    height: 100%;
+    background: #FF1919;
+}
+
+.g-table-label {
+    position: absolute;
+    right: 6px;
+}
+
+/*
+.g-table-cell-familyAfter .g-table-label,
+.g-table-cell-individualAfter .g-table-label {
+    right: -4px;
+    width: 0;
+    color: #999;
+}
+*/
+
+.g-table-body .g-table-row:hover .g-table-bar {
+    height: 18px;
+    border-bottom: solid 1px rgba(0, 0, 0, .4);
+}
+
+.g-table-body .g-table-row:hover,
+.g-table-body .g-table-row:hover .g-table-cell-state,
+.g-table-body .g-table-row:hover .g-table-cell-ranking,
+.g-table-body .g-table-row:hover .g-table-cell-school,
+.g-table-body .g-table-row:hover .g-table-cell-city,
+.g-table-body .g-table-row:hover .g-table-label,
+.g-table-body-average,
+.g-table-body-average .g-table-label {
+    font-weight: bold;
+    color: #000;
+}
+
+.g-table-body:not(:last-of-type) {
+    border-bottom: dashed 1px #ccc;
+}
+
+.g-table-column-ascending:after,
+.g-table-column-descending:after {
+    padding-left: 4px;
+}
+
+.g-table-column-ascending:after {
+    content: "\0025B2";
+}
+
+.g-table-column-descending:after {
+    content: "\0025BC";
+}
+
+.g-table-cell {
+    width: 200px;
+}
+
+.g-table-cell-state {
+    font-size: 12px;
+    width: 210px;
+}
+
+.g-table-cell-ranking {
+    font-size: 12px;
+    width: 70px;
+}
+
+.g-table-cell-school {
+    font-size: 12px;
+    width: 300px;
+}
+
+.g-table-cell-city {
+    font-size: 12px;
+    width: 100px;
+}
+
+.g-table-cell-familyBefore {
+    width: 320px;
+}
+
+.g-table-cell-formula_1 .g-table-bar
+{
+    background: #1675B6; /*rgba(185, 185, 185, .5);*/
+}
+
+.g-table-cell-formula_2 .g-table-bar
+{
+    background: #FF7F00; /*rgba(185, 185, 185, .5);*/
+}
+
+/*.g-table-cell-individualBefore .g-table-bar,*/
+.g-table-cell-formula_3 .g-table-bar {
+    background: #24A121; /*rgba(185, 185, 185, .5);*/
+}
+
+.g-table-cell-total .g-table-bar {
+    background: #00BED1; /*rgba(185, 185, 185, .5);*/
+}
+
+.g-instruction {
+    margin: 34px 10px 0 0;
+    font: oblique 11px sans-serif;
+    color: #aaa;
+    text-align: right;
+}
+
+ #interactiveAB h1,
+#interactiveABC h1 {
+    margin-top: 20px;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
