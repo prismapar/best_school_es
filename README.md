@@ -109,6 +109,8 @@ http://johnguerra.co/classes/visual_analytics_fall_2018/
 
 •	Paper
 
+https://prismapar.github.io/best_school_es/Paper%20the%20best%20schools%20in%20Colombia.pdf
+      
 
 •	Project's demo
 
