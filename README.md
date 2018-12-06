@@ -106,6 +106,10 @@ Insights:
 
 http://johnguerra.co/classes/visual_analytics_fall_2018/
 
+
+•	Paper
+
+
 •	Project's demo
 
 Spanish version: https://prismapar.github.io/best_school_es/index.html      
